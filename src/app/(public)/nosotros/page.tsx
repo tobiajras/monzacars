@@ -60,18 +60,20 @@ const NosotrosPage = () => {
             className='text-center lg:text-left max-w-lg'
           >
             <h3 className='text-2xl lg:text-3xl font-semibold text-color-title mb-3'>
-              Experiencia y compromiso
+              Seguridad y Confianza
             </h3>
             <p className='text-color-text mb-2 lg:text-lg font-medium'>
-              Nuestra experiencia en el mercado nos permite ofrecer la mejor
-              calidad y el mejor servicio. Desde la selección de los autos hasta
-              la entrega, te acompañamos en cada paso.
+              En Main Motors, nos enorgullece brindar a nuestros clientes un
+              trato excepcional y garantizar su satisfacción en cada paso del
+              proceso. Nuestro equipo altamente capacitado está comprometido en
+              brindarte una atención personalizada y amigable desde el momento
+              en que llegas a nuestro concesionario
             </p>
             <p className='text-color-text lg:text-lg font-medium'>
-              Contamos con un equipo de profesionales especializados en el
-              sector automotriz. Nuestro objetivo es convertir tu sueño de tener
-              un auto en una realidad, ofreciendo opciones de financiamiento
-              flexibles y asesoramiento integral en cada etapa de tu compra.
+              Nos dedicamos a hacer de tu experiencia de compra de un vehículo
+              una experiencia gratificante y libre de preocupaciones. Vení a
+              visitarnos y descubrí por qué nuestros clientes confían en
+              nosotros para encontrar su vehículo perfecto.
             </p>
           </motion.div>
         </section>

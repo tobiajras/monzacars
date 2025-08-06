@@ -16,6 +16,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import data from '@/data/data.json';
 import ShareMenu from '@/components/ShareMenu';
+import { capitalizeFirstLetter } from '@/lib/utils';
 
 interface ApiCar {
   id: string;
@@ -254,7 +255,7 @@ export default function AutoDetailPage() {
                 href={`/catalogo?categoria=${car.Category.name.toLowerCase()}`}
               >
                 <p className='text-color-text hover:text-color-primary transition-colors'>
-                  {car.Category.name}
+                  {capitalizeFirstLetter(car.Category.name)}
                 </p>
               </Link>
             </div>
@@ -448,7 +449,7 @@ export default function AutoDetailPage() {
                     </span>
                     <span className='text-color-primary'>•</span>
                     <span className='font-medium text-color-text'>
-                      {car.Category.name}
+                      {capitalizeFirstLetter(car.Category.name)}
                     </span>
                   </div>
                 </div>

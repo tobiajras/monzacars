@@ -19,6 +19,7 @@ import CloseIcon from '@/components/icons/CloseIcon';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import data from '@/data/data.json';
+import { capitalizeFirstLetter } from '@/lib/utils';
 
 interface ApiCar {
   id: string;
@@ -80,6 +81,8 @@ const CatalogoPage = () => {
   const [loading, setLoading] = useState(true);
   const [todasLasMarcas, setTodasLasMarcas] = useState<string[]>([]);
   const [categorias, setCategorias] = useState<Category[]>([]);
+
+  console.log(cars);
 
   // Función para obtener todas las marcas disponibles
   const fetchMarcas = () => {
@@ -402,7 +405,7 @@ const CatalogoPage = () => {
                           value={categoria.name}
                           className='hover:text-color-primary hover:bg-neutral-700'
                         >
-                          {categoria.name}
+                          {capitalizeFirstLetter(categoria.name)}
                         </SelectItem>
                       ))}
                     </SelectContent>
@@ -515,7 +518,7 @@ const CatalogoPage = () => {
                                   : 'hover:text-color-primary'
                               } hover:bg-neutral-700`}
                             >
-                              {categoria.name}
+                              {capitalizeFirstLetter(categoria.name)}
                             </SelectItem>
                           ))}
                         </SelectContent>
@@ -552,7 +555,9 @@ const CatalogoPage = () => {
                   )}
                   {categoriaFilter && (
                     <div className='flex items-center gap-2 px-3 py-2 rounded-full bg-neutral-800/80 border border-neutral-700 text-white'>
-                      <span>Categoría: {categoriaFilter}</span>
+                      <span>
+                        Categoría: {capitalizeFirstLetter(categoriaFilter)}
+                      </span>
                       <button
                         onClick={() => updateFilters('categoria', '')}
                         className='text-neutral-400 hover:text-white transition-colors'
@@ -836,7 +841,7 @@ const CatalogoPage = () => {
                   <>
                     No hay vehículos disponibles en la categoría{' '}
                     <span className='text-color-title font-semibold'>
-                      {categoriaFilter}
+                      {capitalizeFirstLetter(categoriaFilter)}
                     </span>
                     .
                   </>
