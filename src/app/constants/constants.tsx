@@ -5,24 +5,24 @@ export const company = {
   favicon: false,
   price: true,
   objectCover: '50%',
-  id: 'mainmotors',
-  name: 'Main Motors',
-  adress: 'Av. Francisco Beiró 5037',
-  city: 'Villa Devoto',
-  email: 'ventas@mainmotors.com.ar',
-  instagram: 'mainmotorsok',
-  facebook: 'https://www.facebook.com/mainmotors1/',
-  whatsapp: ['1138469807', '1135791791'],
-  googlemapsLink: 'https://maps.app.goo.gl/V9XMJRKcYUHNYzTz7',
+  id: 'mrautos',
+  name: 'Mr Autos',
+  adress: 'Av. Cabildo 306',
+  city: 'Piñeyro',
+  email: 'mrautos@gmail.com',
+  instagram: 'mrautos.arg',
+  facebook: null,
+  whatsapp: ['1122833001'],
+  googlemapsLink: 'https://maps.app.goo.gl/nByKPCrMjBm39yLE8',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.717513624748!2d-58.52357192339204!3d-34.61130405790045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb700627b60ed%3A0x149df398afe402ec!2sMain%20Motors!5e0!3m2!1sen!2sar!4v1754435465479!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.030595149353!2d-58.38908479486467!3d-34.67917728708873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccdd0d9bd8241%3A0xe7b839337fa93e00!2sMr%20Autos!5e0!3m2!1sen!2sar!4v1754485559496!5m2!1sen!2sar',
   openDays: [
-    { day: 'Lunes', hours: ['10:00 a 19:00hs'] },
-    { day: 'Martes', hours: ['10:00 a 19:00hs'] },
-    { day: 'Miércoles', hours: ['10:00 a 19:00hs'] },
-    { day: 'Jueves', hours: ['10:00 a 19:00hs'] },
-    { day: 'Viernes', hours: ['10:00 a 19:00hs'] },
-    { day: 'Sábado', hours: ['10:00 a 16:00hs'] },
+    { day: 'Lunes', hours: ['10:00 a 18:30hs'] },
+    { day: 'Martes', hours: ['10:00 a 18:30hs'] },
+    { day: 'Miércoles', hours: ['10:00 a 18:30hs'] },
+    { day: 'Jueves', hours: ['10:00 a 18:30hs'] },
+    { day: 'Viernes', hours: ['10:00 a 18:30hs'] },
+    { day: 'Sábado', hours: ['10:30 a 14:30hs'] },
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -33,8 +33,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://mainmotors.vercel.app/',
-  title: 'Main Motors - Compra y Venta de Autos',
+  metadataBase: 'https://mrautos.vercel.app/',
+  title: 'Mr Autos - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
