@@ -5,24 +5,24 @@ export const company = {
   favicon: false,
   price: true,
   objectCover: '50%',
-  id: 'mrautos',
-  name: 'Mr Autos',
-  adress: 'Av. Cabildo 306',
-  city: 'Piñeyro',
-  email: 'mrautos@gmail.com',
-  instagram: 'mrautos.arg',
+  id: 'autowood',
+  name: 'Auto Wood',
+  adress: 'Av. Francisco Beiró 4845',
+  city: 'Villa Devoto',
+  email: null,
+  instagram: 'autowood.autos',
   facebook: null,
-  whatsapp: ['1122833001'],
-  googlemapsLink: 'https://maps.app.goo.gl/nByKPCrMjBm39yLE8',
+  whatsapp: ['110167517', '1145689874'],
+  googlemapsLink: 'https://maps.app.goo.gl/23XjZD3iKFw6ssnK8',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.030595149353!2d-58.38908479486467!3d-34.67917728708873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccdd0d9bd8241%3A0xe7b839337fa93e00!2sMr%20Autos!5e0!3m2!1sen!2sar!4v1754485559496!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.760177092567!2d-58.518884946825416!3d-34.610225412827624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7d092bd2f41%3A0xcd461b1f9b78e042!2sAuto%20Wood!5e0!3m2!1sen!2sar!4v1754566217599!5m2!1sen!2sar',
   openDays: [
-    { day: 'Lunes', hours: ['10:00 a 18:30hs'] },
-    { day: 'Martes', hours: ['10:00 a 18:30hs'] },
-    { day: 'Miércoles', hours: ['10:00 a 18:30hs'] },
-    { day: 'Jueves', hours: ['10:00 a 18:30hs'] },
-    { day: 'Viernes', hours: ['10:00 a 18:30hs'] },
-    { day: 'Sábado', hours: ['10:30 a 14:30hs'] },
+    { day: 'Lunes', hours: ['10:30 a 19:00hs'] },
+    { day: 'Martes', hours: ['10:30 a 19:00hs'] },
+    { day: 'Miércoles', hours: ['10:30 a 19:00hs'] },
+    { day: 'Jueves', hours: ['10:30 a 19:00hs'] },
+    { day: 'Viernes', hours: ['10:30 a 19:00hs'] },
+    // { day: 'Sábado', hours: ['10:30 a 14:30hs'] },
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -33,8 +33,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://mrautos.vercel.app/',
-  title: 'Mr Autos - Compra y Venta de Autos',
+  metadataBase: 'https://autowood.vercel.app/',
+  title: 'Auto Wood - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
