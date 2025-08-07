@@ -125,6 +125,11 @@ const CatalogoPage = () => {
     try {
       let filteredCars = [...data.cars];
 
+      // Filtrar vehículos que no tienen imágenes
+      filteredCars = filteredCars.filter(
+        (car) => car.images && car.images.length > 0
+      );
+
       // Aplicar filtros
       if (filters?.search) {
         const searchTerm = filters.search.toLowerCase();
