@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { company } from '@/app/constants/constants';
-import data from '@/data/data.json';
+import catalogo from '@/data/catalogo.json';
 
 interface Imagen {
   id: string;
@@ -66,42 +66,42 @@ const CarrouselFeatured = ({ title }: CarrouselFeaturedProps) => {
     const obtenerDestacados = () => {
       setCargando(true);
       try {
-        const destacadosSimulados = data.cars.slice(0, 12).map((auto) => ({
+        const destacadosSimulados = catalogo.slice(0, 12).map((auto) => ({
           id: auto.id,
-          brand: auto.brand,
-          model: auto.mlTitle,
-          year: auto.year,
-          color: auto.color,
+          brand: auto.marca,
+          model: auto.name,
+          year: auto.ano,
+          color: '',
           price: {
-            valor: auto.price,
-            moneda: auto.currency,
+            valor: auto.precio.valor,
+            moneda: auto.precio.moneda,
           },
-          description: auto.description,
-          position: auto.position,
-          featured: auto.featured,
-          favorite: auto.favorite,
-          active: auto.active,
-          categoryId: auto.categoryId,
-          mileage: auto.mileage,
-          transmission: auto.transmission,
-          fuel: auto.fuel,
-          doors: auto.doors,
-          createdAt: auto.createdAt,
-          updatedAt: auto.updatedAt,
+          description: auto.descripcion,
+          position: 0,
+          featured: true,
+          favorite: false,
+          active: true,
+          categoryId: auto.categoria,
+          mileage: auto.kilometraje,
+          transmission: auto.transmision,
+          fuel: auto.combustible,
+          doors: auto.puertas,
+          createdAt: new Date().toISOString(),
+          updatedAt: new Date().toISOString(),
           Images: auto.images.map((img, index) => ({
             id: `${auto.id}-img-${index}`,
             carId: auto.id,
-            imageUrl: img.thumbnailUrl,
-            thumbnailUrl: img.thumbnailUrl,
+            imageUrl: `/assets/catalogo/${img}`,
+            thumbnailUrl: `/assets/catalogo/${img}`,
             order: index,
-            createdAt: auto.createdAt,
-            updatedAt: auto.updatedAt,
+            createdAt: new Date().toISOString(),
+            updatedAt: new Date().toISOString(),
           })),
           Category: {
-            id: auto.Category.id,
-            name: auto.Category.name,
-            createdAt: auto.createdAt,
-            updatedAt: auto.updatedAt,
+            id: auto.categoria.toLowerCase(),
+            name: auto.categoria,
+            createdAt: new Date().toISOString(),
+            updatedAt: new Date().toISOString(),
           },
         }));
 
@@ -319,7 +319,7 @@ const CarrouselFeatured = ({ title }: CarrouselFeaturedProps) => {
                         } inline-flex items-center  transition-colors font-semibold`}
                       >
                         Ver más
-                        <span className='inline-block transform translate-x-0 group-hover:translate-x-1 transition-transform duration-300 ml-1.5 text-lg font-bold'>
+                        <span className='inline-block transform translate-x-0 group-hover:translate-x-1 transition-transform duration-300 ml-1'>
                           →
                         </span>
                       </span>

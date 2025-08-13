@@ -14,9 +14,8 @@ import CarrouselRelated from '@/components/CarrouselRelated';
 import { motion } from 'framer-motion';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import data from '@/data/data.json';
+import catalogo from '@/data/catalogo.json';
 import ShareMenu from '@/components/ShareMenu';
-import { capitalizeFirstLetter } from '@/lib/utils';
 
 interface ApiCar {
   id: string;
@@ -108,7 +107,7 @@ export default function AutoDetailPage() {
   useEffect(() => {
     const fetchCar = () => {
       try {
-        const carData = data.cars.find((car) => car.id === id);
+        const carData = catalogo.find((car) => car.id === id);
 
         if (!carData) {
           throw new Error('Vehículo no encontrado');
@@ -117,36 +116,36 @@ export default function AutoDetailPage() {
         // Transformar los datos al formato esperado
         const auto = {
           id: carData.id,
-          brand: carData.brand,
-          model: carData.mlTitle,
-          year: carData.year,
-          color: carData.color,
+          brand: carData.marca,
+          model: carData.name,
+          year: carData.ano,
+          color: '',
           price: {
-            valor: carData.price,
-            moneda: carData.currency,
+            valor: carData.precio.valor,
+            moneda: carData.precio.moneda,
           },
-          description: carData.description,
-          categoryId: carData.categoryId,
-          mileage: carData.mileage,
-          motor: carData.mlEngine || 'No especificado',
-          transmission: carData.transmission,
-          fuel: carData.fuel,
-          doors: carData.doors,
-          position: carData.position,
-          featured: carData.featured,
-          favorite: carData.favorite,
-          active: carData.active,
-          createdAt: carData.createdAt,
-          updatedAt: carData.updatedAt,
+          description: carData.descripcion,
+          categoryId: carData.categoria,
+          mileage: carData.kilometraje,
+          motor: carData.motor,
+          transmission: carData.transmision,
+          fuel: carData.combustible,
+          doors: carData.puertas,
+          position: 0,
+          featured: false,
+          favorite: false,
+          active: true,
+          createdAt: new Date().toISOString(),
+          updatedAt: new Date().toISOString(),
           Category: {
-            id: carData.Category.id,
-            name: carData.Category.name,
-            createdAt: carData.createdAt,
-            updatedAt: carData.updatedAt,
+            id: carData.categoria.toLowerCase(),
+            name: carData.categoria,
+            createdAt: new Date().toISOString(),
+            updatedAt: new Date().toISOString(),
           },
           Images: carData.images.map((img, index) => ({
-            thumbnailUrl: img.thumbnailUrl,
-            imageUrl: img.thumbnailUrl,
+            thumbnailUrl: `/assets/catalogo/${img}`,
+            imageUrl: `/assets/catalogo/${img}`,
             order: index,
           })),
         };
@@ -255,7 +254,7 @@ export default function AutoDetailPage() {
                 href={`/catalogo?categoria=${car.Category.name.toLowerCase()}`}
               >
                 <p className='text-color-text hover:text-color-primary transition-colors'>
-                  {capitalizeFirstLetter(car.Category.name)}
+                  {car.Category.name}
                 </p>
               </Link>
             </div>
@@ -449,7 +448,7 @@ export default function AutoDetailPage() {
                     </span>
                     <span className='text-color-primary'>•</span>
                     <span className='font-medium text-color-text'>
-                      {capitalizeFirstLetter(car.Category.name)}
+                      {car.Category.name}
                     </span>
                   </div>
                 </div>

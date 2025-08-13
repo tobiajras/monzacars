@@ -18,8 +18,7 @@ import {
 import CloseIcon from '@/components/icons/CloseIcon';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-import data from '@/data/data.json';
-import { capitalizeFirstLetter } from '@/lib/utils';
+import catalogo from '@/data/catalogo.json';
 
 interface ApiCar {
   id: string;
@@ -82,14 +81,12 @@ const CatalogoPage = () => {
   const [todasLasMarcas, setTodasLasMarcas] = useState<string[]>([]);
   const [categorias, setCategorias] = useState<Category[]>([]);
 
-  console.log(cars);
-
   // Función para obtener todas las marcas disponibles
   const fetchMarcas = () => {
     try {
       // Obtener marcas únicas del catálogo
       const marcas = Array.from(
-        new Set(data.cars.map((car) => car.brand))
+        new Set(catalogo.map((car) => car.marca))
       ).sort();
       setTodasLasMarcas(marcas);
     } catch (error) {
@@ -102,7 +99,7 @@ const CatalogoPage = () => {
     try {
       // Obtener categorías únicas del catálogo
       const categoriasUnicas = Array.from(
-        new Set(data.cars.map((car) => car.Category.name))
+        new Set(catalogo.map((car) => car.categoria))
       );
       const categoriasProcesadas = categoriasUnicas.map((cat) => ({
         id: cat.toLowerCase(),
@@ -123,31 +120,26 @@ const CatalogoPage = () => {
   ) => {
     setLoading(true);
     try {
-      let filteredCars = [...data.cars];
-
-      // Filtrar vehículos que no tienen imágenes
-      filteredCars = filteredCars.filter(
-        (car) => car.images && car.images.length > 0
-      );
+      let filteredCars = [...catalogo];
 
       // Aplicar filtros
       if (filters?.search) {
         const searchTerm = filters.search.toLowerCase();
         filteredCars = filteredCars.filter(
           (car) =>
-            car.mlTitle.toLowerCase().includes(searchTerm) ||
-            car.brand.toLowerCase().includes(searchTerm)
+            car.name.toLowerCase().includes(searchTerm) ||
+            car.marca.toLowerCase().includes(searchTerm)
         );
       }
       if (filters?.marca) {
         filteredCars = filteredCars.filter(
-          (car) => car.brand.toLowerCase() === filters.marca?.toLowerCase()
+          (car) => car.marca.toLowerCase() === filters.marca?.toLowerCase()
         );
       }
       if (filters?.categoria) {
         filteredCars = filteredCars.filter(
           (car) =>
-            car.Category.name.toLowerCase() === filters.categoria?.toLowerCase()
+            car.categoria.toLowerCase() === filters.categoria?.toLowerCase()
         );
       }
 
@@ -162,39 +154,37 @@ const CatalogoPage = () => {
         .slice(start, end)
         .map((car) => ({
           id: car.id,
-          brand: car.brand,
-          model: car.mlTitle,
-          year: car.year,
-          color: car.color,
+          brand: car.marca,
+          model: car.name,
+          year: car.ano,
+          color: '',
           price: {
-            valor: car.price,
-            moneda: car.currency,
+            valor: car.precio.valor,
+            moneda: car.precio.moneda,
           },
-          description: car.description,
-          categoryId: car.categoryId,
-          mileage: car.mileage,
-          transmission: car.transmission,
-          fuel: car.fuel,
-          doors: car.doors,
-          position: car.position,
-          featured: car.featured,
-          favorite: car.favorite,
-          active: car.active,
-          createdAt: car.createdAt,
-          updatedAt: car.updatedAt,
+          description: car.descripcion,
+          categoryId: car.categoria,
+          mileage: car.kilometraje,
+          transmission: car.transmision,
+          fuel: car.combustible,
+          doors: car.puertas,
+          position: 0,
+          featured: false,
+          favorite: false,
+          active: true,
+          createdAt: new Date().toISOString(),
+          updatedAt: new Date().toISOString(),
           Category: {
-            id: car.Category.id,
-            name: car.Category.name,
-            createdAt: car.createdAt,
-            updatedAt: car.updatedAt,
+            id: car.categoria.toLowerCase(),
+            name: car.categoria,
+            createdAt: new Date().toISOString(),
+            updatedAt: new Date().toISOString(),
           },
-          Images: car.images.map(
-            (img: { thumbnailUrl: string }, index: number) => ({
-              thumbnailUrl: img.thumbnailUrl,
-              imageUrl: img.thumbnailUrl,
-              order: index,
-            })
-          ),
+          Images: car.images.map((img, index) => ({
+            thumbnailUrl: `/assets/catalogo/${img}`,
+            imageUrl: `/assets/catalogo/${img}`,
+            order: index,
+          })),
         }));
 
       setCars(paginatedCars);
@@ -410,7 +400,7 @@ const CatalogoPage = () => {
                           value={categoria.name}
                           className='hover:text-color-primary hover:bg-neutral-700'
                         >
-                          {capitalizeFirstLetter(categoria.name)}
+                          {categoria.name}
                         </SelectItem>
                       ))}
                     </SelectContent>
@@ -523,7 +513,7 @@ const CatalogoPage = () => {
                                   : 'hover:text-color-primary'
                               } hover:bg-neutral-700`}
                             >
-                              {capitalizeFirstLetter(categoria.name)}
+                              {categoria.name}
                             </SelectItem>
                           ))}
                         </SelectContent>
@@ -560,9 +550,7 @@ const CatalogoPage = () => {
                   )}
                   {categoriaFilter && (
                     <div className='flex items-center gap-2 px-3 py-2 rounded-full bg-neutral-800/80 border border-neutral-700 text-white'>
-                      <span>
-                        Categoría: {capitalizeFirstLetter(categoriaFilter)}
-                      </span>
+                      <span>Categoría: {categoriaFilter}</span>
                       <button
                         onClick={() => updateFilters('categoria', '')}
                         className='text-neutral-400 hover:text-white transition-colors'
@@ -846,7 +834,7 @@ const CatalogoPage = () => {
                   <>
                     No hay vehículos disponibles en la categoría{' '}
                     <span className='text-color-title font-semibold'>
-                      {capitalizeFirstLetter(categoriaFilter)}
+                      {categoriaFilter}
                     </span>
                     .
                   </>
