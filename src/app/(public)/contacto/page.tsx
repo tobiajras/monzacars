@@ -153,34 +153,27 @@ const ContactoPage = () => {
 
                   <div className='space-y-2 sm:space-y-3'>
                     <div className='relative flex flex-col gap-2 sm:gap-3'>
-                      <motion.div
-                        initial={{ opacity: 0, y: 30 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5, delay: 0.4 }}
-                        viewport={{ once: true }}
-                        className='flex items-center justify-between p-3 sm:p-4 bg-gradient-to-r from-white to-gray-50 rounded-xl sm:rounded-2xl border border-gray-200'
-                      >
-                        <div className='flex items-center space-x-2 sm:space-x-4'>
-                          <div className='w-2 h-2 sm:w-3 sm:h-3 bg-color-primary rounded-full shadow-sm'></div>
-                          <span className='font-bold text-gray-900 text-sm sm:text-base lg:text-lg'>
-                            Lunes a Sábado: 09:00 a 19:00hs
-                          </span>
+                      {company.openDays.map((day, index) => (
+                        <div key={index}>
+                          <motion.div
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{
+                              duration: 0.5,
+                              delay: 0.4 + index * 0.1,
+                            }}
+                            viewport={{ once: true }}
+                            className='flex items-center justify-between p-3 sm:p-4 bg-gradient-to-r from-white/90 to-gray-50/90 rounded-xl sm:rounded-2xl border border-gray-200 shadow-sm'
+                          >
+                            <div className='flex items-center space-x-2 sm:space-x-4'>
+                              <div className='w-2 h-2 sm:w-3 sm:h-3 bg-color-primary rounded-full shadow-sm'></div>
+                              <span className='font-bold text-gray-800 text-sm sm:text-base lg:text-lg'>
+                                {day}
+                              </span>
+                            </div>
+                          </motion.div>
                         </div>
-                      </motion.div>
-                      <motion.div
-                        initial={{ opacity: 0, y: 30 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5, delay: 0.5 }}
-                        viewport={{ once: true }}
-                        className='flex items-center justify-between p-3 sm:p-4 bg-gradient-to-r from-white to-gray-50 rounded-xl sm:rounded-2xl border border-gray-200'
-                      >
-                        <div className='flex items-center space-x-2 sm:space-x-4'>
-                          <div className='w-2 h-2 sm:w-3 sm:h-3 bg-color-primary rounded-full shadow-sm'></div>
-                          <span className='font-bold text-gray-900 text-sm sm:text-base lg:text-lg'>
-                            Domingos Cerrado
-                          </span>
-                        </div>
-                      </motion.div>
+                      ))}
                     </div>
                   </div>
                 </div>

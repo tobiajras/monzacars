@@ -1,18 +1,18 @@
 [
   {
-    "id": "ford-ecosport-2-0-se-mt-2016",
-    "name": "Ford Ecosport 2.0 SE MT",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2016,
-    "kilometraje": 136000,
+    "id": "renault-clio-mio-2014",
+    "name": "Renault Clio Mío",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2014,
+    "kilometraje": 114000,
     "precio": {
-      "valor": 999999,
+      "valor": 9900000,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
+    "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "2.0",
+    "motor": "1.2",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -22,27 +22,24 @@
       "1-4.webp",
       "1-5.webp",
       "1-6.webp",
-      "1-7.webp",
-      "1-8.webp",
-      "1-9.webp",
-      "1-10.webp"
+      "1-7.webp"
     ],
-    "descripcion": "¡NUEVO INGRESO! Ford Ecosport 2.0 SE MT 2016\n\nAño: 2016\nTransmisión: Manual\nCombustible: Nafta\nKilometraje: 136.000 km aprox.\n\nFINANCIACIÓN FÁCIL\nAnticipo de $5.000.000\nCuotas fijas en ARS\nCréditos tradicionales, personales, prendarios, tasa fija y UVA\n\nVENTAJAS EXCLUSIVAS\nTomamos tus dólares con cotización especial\nCotizamos tu usado al mejor precio del mercado\nOpciones de contado y financiación\n\nContactanos al 11 2643-1641\nVisitanos en Belén de Escobar, Av. 25 de Mayo 817 esq. Colón\nAutomotores Damián!"
+    "descripcion": "VENDIDO!!\n\nRenault Clio Mío\nAño 2014\n114.000 Mil Km\n9.900.000 Pesos\n\nHermosa unidad"
   },
   {
-    "id": "vw-polo-trend-msi-2023",
-    "name": "VW Polo Trend MSI",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2023,
-    "kilometraje": 61910,
+    "id": "chevrolet-tiggo-2-0-lexury-2013",
+    "name": "Chevrolet Tiggo 2.0 Lexury",
+    "marca": "Chevrolet",
+    "marcaId": "chevrolet",
+    "ano": 2013,
+    "kilometraje": 210000,
     "precio": {
-      "valor": 999999,
+      "valor": 10500000,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
+    "categoria": "SUV",
     "transmision": "Manual",
-    "motor": "1.6",
+    "motor": "2.0",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -51,24 +48,25 @@
       "2-3.webp",
       "2-4.webp",
       "2-5.webp",
-      "2-6.webp"
+      "2-6.webp",
+      "2-7.webp"
     ],
-    "descripcion": "¡NUEVO INGRESO! VW Polo Trend MSI 2023\n\nAño: 2023\nTransmisión: Manual\nCombustible: Nafta\nKilometraje: 61.910 km aprox.\n\nFINANCIACIÓN FÁCIL\nCuotas fijas en ARS\nCréditos tradicionales, personales, prendarios, tasa fija y UVA\n\nVENTAJAS EXCLUSIVAS\nTomamos tus dólares con cotización especial\nCotizamos tu usado al mejor precio del mercado\nOpciones de contado y financiación\n\nContactanos al 11 2643-1641\nVisitanos en Belén de Escobar, Av. 25 de Mayo 817 esq. Colón\nAutomotores Damián!"
+    "descripcion": "VENDIDO!!\n\nChevy Tiggo 2.0 Lexury\nAño 2013\n210.000 Km\n10.500.000$"
   },
   {
-    "id": "chevrolet-onix-lt-2016",
-    "name": "Chevrolet Onix LT",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2016,
-    "kilometraje": 133000,
+    "id": "ford-eco-sport-titanium-2018",
+    "name": "Ford Eco Sport Titanium",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2018,
+    "kilometraje": 105000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
+      "valor": 18000000,
+      "moneda": "USD"
     },
-    "categoria": "Hatchback",
+    "categoria": "SUV",
     "transmision": "Manual",
-    "motor": "1.4",
+    "motor": "1.6",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -77,236 +75,79 @@
       "3-3.webp",
       "3-4.webp",
       "3-5.webp",
-      "3-6.webp"
+      "3-6.webp",
+      "3-7.webp",
+      "3-8.webp",
+      "3-9.webp"
     ],
-    "descripcion": "¡NUEVO INGRESO! Chevrolet Onix LT 2016\n\nAño: 2016\nMotor: 1.4\nTransmisión: Manual\nCombustible: Nafta\nKilometraje: 133.xxx km aprox.\n\nFINANCIACIÓN FÁCIL\nAnticipo: $4.500.000\nCuotas fijas en ARS\nCréditos tradicionales, personales, prendarios, tasa fija y UVA\n\nVENTAJAS EXCLUSIVAS\nTomamos tus dólares con cotización especial\nCotizamos tu usado al mejor precio del mercado\nOpciones de contado y financiación\n\nContactanos al 11 2643-1641\nVisitanos en Belén de Escobar, Av. 25 de Mayo 817 esq. Colón\nAutomotores Damián!"
+    "descripcion": "VENDIDA!!\n\nEco Sport Titanium\nAño 2018\n105 mil km\n18.000 mil U$$\n\nImpecable estado"
   },
   {
-    "id": "volkswagen-gol-trend-trendline-101cv-mq-2021",
-    "name": "Volkswagen Gol Trend Trendline 101cv MQ",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
-    "ano": 2021,
-    "kilometraje": 110000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "4-1.webp",
-      "4-2.webp",
-      "4-3.webp",
-      "4-4.webp",
-      "4-5.webp",
-      "4-6.webp"
-    ],
-    "descripcion": "¡NUEVO INGRESO! Volkswagen Gol Trend Trendline 101cv MQ 2021\n\nAño: 2021\nMotor: 1.6\nTransmisión: Manual\nCombustible: Nafta\nKilometraje: 110.xxx km aprox.\n\nFINANCIACIÓN FÁCIL\nAnticipo: $4.500.000\nCuotas fijas en ARS\nCréditos tradicionales, personales, prendarios, tasa fija y UVA\n\nVENTAJAS EXCLUSIVAS\nTomamos tus dólares con cotización especial\nCotizamos tu usado al mejor precio del mercado\nOpciones de contado y financiación\n\nContactanos al 11 2643-1641\nVisitanos en Belén de Escobar, Av. 25 de Mayo 817 esq. Colón\nAutomotores Damián!"
-  },
-  {
-    "id": "peugeot-2008-thp-sport-2018",
-    "name": "Peugeot 2008 THP Sport",
+    "id": "peugeot-208-allure-s-meg-2016",
+    "name": "Peugeot 208 Allure S Meg",
     "marca": "Peugeot",
     "marcaId": "peugeot",
-    "ano": 2018,
-    "kilometraje": 67000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "SUV",
-    "transmision": "Manual",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "5-1.webp",
-      "5-2.webp",
-      "5-3.webp",
-      "5-4.webp",
-      "5-5.webp",
-      "5-6.webp",
-      "5-7.webp"
-    ],
-    "descripcion": "¡NUEVO INGRESO! Peugeot 2008 THP Sport 2018\n\nAño: 2018\nMotor: 1.6\nTransmisión: Manual\nCombustible: Nafta\nKilometraje: 67.xxx km aprox.\n\nFINANCIACIÓN FÁCIL\nAnticipo: $5.500.000\nCuotas fijas en ARS\nCréditos tradicionales, personales, prendarios, tasa fija y UVA\n\nVENTAJAS EXCLUSIVAS\nTomamos tus dólares con cotización especial\nCotizamos tu usado al mejor precio del mercado\nOpciones de contado y financiación\n\nContactanos al 11 2643-1641\nVisitanos en Belén de Escobar, Av. 25 de Mayo 817 esq. Colón\nAutomotores Damián!"
-  },
-  {
-    "id": "toyota-prius-cvt-2010",
-    "name": "Toyota Prius CVT",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2010,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Híbrido",
-    "transmision": "Automático",
-    "motor": "1.8",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": ["6-1.webp", "6-2.webp", "6-3.webp", "6-4.webp", "6-5.webp"],
-    "descripcion": "¡NUEVO INGRESO! Toyota Prius CVT 2010\n\nAño: 2010\nMotor: 1.8\nTransmisión: Automático\nCombustible: Nafta\n\nFINANCIACIÓN FÁCIL\nAnticipo: $5.000.000\nCuotas fijas en ARS\nCréditos tradicionales, personales, prendarios, tasa fija y UVA\n\nVENTAJAS EXCLUSIVAS\nTomamos tus dólares con cotización especial\nCotizamos tu usado al mejor precio del mercado\nOpciones de contado y financiación\n\nContactanos al 11 2643-1641\nVisitanos en Belén de Escobar, Av. 25 de Mayo 817 esq. Colón\nAutomotores Damián!"
-  },
-  {
-    "id": "vw-golf-tsi-bluemotion-techno-2016",
-    "name": "VW Golf TSI Bluemotion Techno",
-    "marca": "Volkswagen",
-    "marcaId": "volkswagen",
     "ano": 2016,
-    "kilometraje": 153000,
+    "kilometraje": 90000,
     "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Automático",
-    "motor": "1.4",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "7-1.webp",
-      "7-2.webp",
-      "7-3.webp",
-      "7-4.webp",
-      "7-5.webp",
-      "7-6.webp"
-    ],
-    "descripcion": "¡NUEVO INGRESO! VW Golf TSI Bluemotion Techno 2016\n\nAño: 2016\nMotor: 1.4\nTransmisión: Automático\nCombustible: Nafta\nKilometraje: 153.xxx km aprox.\n\nFINANCIACIÓN FÁCIL\nAnticipo: $5.000.000\nCuotas fijas en ARS\nCréditos tradicionales, personales, prendarios, tasa fija y UVA\n\nVENTAJAS EXCLUSIVAS\nTomamos tus dólares con cotización especial\nCotizamos tu usado al mejor precio del mercado\nOpciones de contado y financiación\n\nContactanos al 11 2643-1641\nVisitanos en Belén de Escobar, Av. 25 de Mayo 817 esq. Colón\nAutomotores Damián!"
-  },
-  {
-    "id": "citroen-c4-lounge-thp-165-shine-2017",
-    "name": "Citroën C4 Lounge THP 165 Shine",
-    "marca": "Citroën",
-    "marcaId": "citroen",
-    "ano": 2017,
-    "kilometraje": 110000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Sedán",
-    "transmision": "Automático",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "8-1.webp",
-      "8-2.webp",
-      "8-3.webp",
-      "8-4.webp",
-      "8-5.webp",
-      "8-6.webp"
-    ],
-    "descripcion": "¡NUEVO INGRESO! Citroën C4 Lounge THP 165 Shine 2017\n\nAño: 2017\nMotor: 1.6\nTransmisión: Automático\nCombustible: Nafta\nKilometraje: 110.xxx km aprox.\n\nFINANCIACIÓN FÁCIL\nAnticipo: $4.500.000\nCuotas fijas en ARS\nCréditos tradicionales, personales, prendarios, tasa fija y UVA\n\nVENTAJAS EXCLUSIVAS\nTomamos tus dólares con cotización especial\nCotizamos tu usado al mejor precio del mercado\nOpciones de contado y financiación\n\nContactanos al 11 2643-1641\nVisitanos en Belén de Escobar, Av. 25 de Mayo 817 esq. Colón\nAutomotores Damián!"
-  },
-  {
-    "id": "citroen-c3-aircross-shine-w-2016",
-    "name": "Citroën C3 Aircross Shine W",
-    "marca": "Citroën",
-    "marcaId": "citroen",
-    "ano": 2016,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "SUV",
-    "transmision": "Manual",
-    "motor": "1.6",
-    "combustible": "Nafta",
-    "puertas": 5,
-    "images": [
-      "9-1.webp",
-      "9-2.webp",
-      "9-3.webp",
-      "9-4.webp",
-      "9-5.webp",
-      "9-6.webp"
-    ],
-    "descripcion": "¡NUEVO INGRESO! Citroën C3 Aircross Shine W 2016\n\nAño: 2016\nMotor: 1.6\nTransmisión: Manual\nCombustible: Nafta\n\nFINANCIACIÓN FÁCIL\nAnticipo: $4.500.000\nCuotas fijas en ARS\nCréditos tradicionales, personales, prendarios, tasa fija y UVA\n\nVENTAJAS EXCLUSIVAS\nTomamos tus dólares con cotización especial\nCotizamos tu usado al mejor precio del mercado\nOpciones de contado y financiación\n\nContactanos al 11 2643-1641\nVisitanos en Belén de Escobar, Av. 25 de Mayo 817 esq. Colón\nAutomotores Damián!"
-  },
-  {
-    "id": "peugeot-308-active-hdi-2015",
-    "name": "Peugeot 308 Active HDI",
-    "marca": "Peugeot",
-    "marcaId": "peugeot",
-    "ano": 2015,
-    "kilometraje": 999999,
-    "precio": {
-      "valor": 999999,
+      "valor": 14800000,
       "moneda": "ARS"
     },
     "categoria": "Hatchback",
     "transmision": "Manual",
     "motor": "1.6",
-    "combustible": "Gas",
-    "puertas": 5,
-    "images": [
-      "10-1.webp",
-      "10-2.webp",
-      "10-3.webp",
-      "10-4.webp",
-      "10-5.webp",
-      "10-6.webp"
-    ],
-    "descripcion": "¡NUEVO INGRESO! Peugeot 308 Active HDI 2015\n\nAño: 2015\nMotor: 1.6\nTransmisión: Manual\nCombustible: Gas\n\nFINANCIACIÓN FÁCIL\nAnticipo: $4.500.000\nCuotas fijas en ARS\nCréditos tradicionales, personales, prendarios, tasa fija y UVA\n\nVENTAJAS EXCLUSIVAS\nTomamos tus dólares con cotización especial\nCotizamos tu usado al mejor precio del mercado\nOpciones de contado y financiación\n\nContactanos al 11 2643-1641\nVisitanos en Belén de Escobar, Av. 25 de Mayo 817 esq. Colón\nAutomotores Damián!"
-  },
-  {
-    "id": "toyota-yaris-xs-cvt-2024",
-    "name": "Toyota Yaris XS CVT",
-    "marca": "Toyota",
-    "marcaId": "toyota",
-    "ano": 2024,
-    "kilometraje": 10000,
-    "precio": {
-      "valor": 999999,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Automático",
-    "motor": "1.5",
     "combustible": "Nafta",
     "puertas": 5,
-    "images": [
-      "11-1.webp",
-      "11-2.webp",
-      "11-3.webp",
-      "11-4.webp",
-      "11-5.webp",
-      "11-6.webp"
-    ],
-    "descripcion": "¡NUEVO INGRESO! Toyota Yaris XS CVT 2024\n\nAño: 2024\nMotor: 1.5\nTransmisión: Automática\nCombustible: Nafta\nKilometraje: 10.xxx km aprox.\n\nFINANCIACIÓN FÁCIL\nAnticipo: $7.000.000\nCuotas fijas en ARS\nCréditos tradicionales, personales, prendarios, tasa fija y UVA\n\nVENTAJAS EXCLUSIVAS\nTomamos tus dólares con cotización especial\nCotizamos tu usado al mejor precio del mercado\nOpciones de contado y financiación\n\nContactanos al 11 2643-1641\nVisitanos en Belén de Escobar, Av. 25 de Mayo 817 esq. Colón\nAutomotores Damián!"
+    "images": ["4-1.webp", "4-2.webp", "4-3.webp", "4-4.webp"],
+    "descripcion": "VENDIDO!!\n\nPeugeot 208 Allure S Meg\nAño 2016\n90.000 mil Km\n$14.800.000\n\nRetira con 7 Millones\nImpecable estado y condiciones"
   },
   {
-    "id": "ford-ecosport-freestyle-2014",
-    "name": "Ford EcoSport Freestyle",
+    "id": "ford-ka-fly-viral-1-0-2011",
+    "name": "Ford Ka Fly Viral 1.0",
     "marca": "Ford",
     "marcaId": "ford",
-    "ano": 2014,
-    "kilometraje": 165000,
+    "ano": 2011,
+    "kilometraje": 180000,
     "precio": {
-      "valor": 999999,
+      "valor": 5000,
+      "moneda": "USD"
+    },
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.0",
+    "combustible": "Nafta",
+    "puertas": 3,
+    "images": ["5-1.webp", "5-2.webp", "5-3.webp"],
+    "descripcion": "VENDIDO!!\n\nFord Ka Fly Viral 1.0\nAño 2011\n180.000 Mil Km\n5.000 U$$\n\nAprovecha la oferta de la semana!!"
+  },
+  {
+    "id": "renault-clio-mio-2013",
+    "name": "Renault Clio Mío",
+    "marca": "Renault",
+    "marcaId": "renault",
+    "ano": 2013,
+    "kilometraje": 76000,
+    "precio": {
+      "valor": 11000000,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
+    "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "1.6L",
+    "motor": "1.2",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
-      "12-1.webp",
-      "12-2.webp",
-      "12-3.webp",
-      "12-4.webp",
-      "12-5.webp",
-      "12-6.webp"
+      "6-1.webp",
+      "6-2.webp",
+      "6-3.webp",
+      "6-4.webp",
+      "6-5.webp",
+      "6-6.webp",
+      "6-7.webp",
+      "6-8.webp",
+      "6-9.webp",
+      "6-10.webp"
     ],
-    "descripcion": "¡NUEVO INGRESO! Ford EcoSport Freestyle 2014\n\nAño: 2014\nMotor: 1.6L\nTransmisión: Manual\nCombustible: Nafta\nKilometraje: 165.xxx km aprox.\n\nFINANCIACIÓN FÁCIL\nAnticipo: $4.500.000\nCuotas fijas en ARS\nCréditos tradicionales, personales, prendarios, tasa fija y UVA\n\nVENTAJAS EXCLUSIVAS\nTomamos tus dólares con cotización especial\nCotizamos tu usado al mejor precio del mercado\nOpciones de contado y financiación\n\nContactanos al 11 2643-1641\nVisitanos en Belén de Escobar, Av. 25 de Mayo 817 esq. Colón\nAutomotores Damián!"
+    "descripcion": "VENDIDO!!\n\nClio Mío\nAño 2013 - Confort - 76.000km\n$11.000.000 - Transferido\n\nEstado increíble!! No te pierdas la oportunidad !!"
   }
 ]

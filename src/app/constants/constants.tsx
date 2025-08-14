@@ -1,29 +1,25 @@
 export const company = {
-  dark: false,
+  dark: true,
   darkmode: true,
   shortAdress: true,
-  favicon: true,
-  price: false,
+  favicon: false,
+  price: true,
   objectCover: '50%',
-  id: 'automotoresdamian',
-  name: 'Automotores Damián',
-  adress: 'Av. 25 de Mayo 817',
-  city: 'Escobar',
-  email: 'automotoresdamian@gmail.com',
-  instagram: 'damian_automotores',
+  id: 'pcarnordelta',
+  name: 'PCAR Nordelta',
+  adress: 'Av. del Puerto 238',
+  city: 'Nordelta',
+  email: 'pcarnordelta@gmail.com',
+  instagram: 'pcarnordelta',
   facebook: null,
-  whatsapp: ['1126431641'],
-  googlemapsLink: 'https://maps.app.goo.gl/smhn689m8kPAVBLr6',
+  whatsapp: ['1126041539', '1164977257'],
+  googlemapsLink: 'https://maps.app.goo.gl/dbuSTuox3q6ToDVU7',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13175.96860164564!2d-58.79227865221102!3d-34.350677865648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb61003b77453d%3A0x6ae2b83925997eb!2sAutomotores%20Damian!5e0!3m2!1sen!2sar!4v1754691925279!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3292.1680818395885!2d-58.64762707728175!3d-34.39707348127591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca1a238805ef7%3A0xcaa301dad4de72b5!2sPcar%20nordelta!5e0!3m2!1sen!2sar!4v1754720622217!5m2!1sen!2sar',
   openDays: [
-    { day: 'Lunes', hours: ['09:00 a 19:00hs'] },
-    { day: 'Martes', hours: ['09:00 a 19:00hs'] },
-    { day: 'Miércoles', hours: ['09:00 a 19:00hs'] },
-    { day: 'Jueves', hours: ['09:00 a 19:00hs'] },
-    { day: 'Viernes', hours: ['09:00 a 19:00hs'] },
-    { day: 'Sábado', hours: ['09:00 a 19:00hs'] },
-    // { day: 'Domingo', hours: ['09:00 a 19:00hs'] },
+    'Lunes a Viernes 10:00 a 19:00hs',
+    'Sábados 10:00 a 16:00hs',
+    // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
@@ -33,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://automotoresdamian.vercel.app/',
-  title: 'Automotores Damián - Compra y Venta de Autos',
+  metadataBase: 'https://pcarnordelta.vercel.app/',
+  title: 'PCAR Nordelta - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };
