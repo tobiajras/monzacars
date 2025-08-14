@@ -90,9 +90,9 @@ const NosotrosPage = () => {
               <div className='grid grid-cols-2 gap-6 pt-8'>
                 <div className='text-center'>
                   <div className='text-3xl font-bold text-color-primary mb-2'>
-                    200+
+                    5+
                   </div>
-                  <div className='text-gray-600'>Autos Vendidos</div>
+                  <div className='text-gray-600'>Años de Experiencia</div>
                 </div>
                 <div className='text-center'>
                   <div className='text-3xl font-bold text-color-primary mb-2'>

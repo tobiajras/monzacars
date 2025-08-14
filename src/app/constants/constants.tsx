@@ -1,24 +1,24 @@
 export const company = {
-  dark: true,
+  dark: false,
   darkmode: true,
   shortAdress: true,
   favicon: false,
-  price: true,
+  price: false,
   objectCover: '50%',
-  id: 'pcarnordelta',
-  name: 'PCAR Nordelta',
-  adress: 'Av. del Puerto 238',
-  city: 'Nordelta',
-  email: 'pcarnordelta@gmail.com',
-  instagram: 'pcarnordelta',
-  facebook: null,
-  whatsapp: ['1126041539', '1164977257'],
-  googlemapsLink: 'https://maps.app.goo.gl/dbuSTuox3q6ToDVU7',
+  id: 'stingerauto',
+  name: 'Stinger Auto',
+  adress: 'Salvador María del carril 4629',
+  city: 'Villa Devoto',
+  email: 'stingerautoventas@gmail.com',
+  instagram: 'stinger.auto',
+  facebook: 'https://www.facebook.com/stingerauto.com.ar/',
+  whatsapp: ['1126482286', '1126540073'],
+  googlemapsLink: 'https://maps.app.goo.gl/4WvDEJfjZgXaPFpQ9',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3292.1680818395885!2d-58.64762707728175!3d-34.39707348127591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca1a238805ef7%3A0xcaa301dad4de72b5!2sPcar%20nordelta!5e0!3m2!1sen!2sar!4v1754720622217!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0103196148284!2d-58.52247152373004!3d-34.60390055750863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7b313806371%3A0x638784d8ccce696c!2sStinger%20Auto%20Devoto!5e0!3m2!1sen!2sar!4v1754696349030!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 10:00 a 19:00hs',
-    'Sábados 10:00 a 16:00hs',
+    'Lunes a Viernes 10:00 a 18:00hs',
+    'Sábados 10:00 a 13:00hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://pcarnordelta.vercel.app/',
-  title: 'PCAR Nordelta - Compra y Venta de Autos',
+  metadataBase: 'https://stingerauto.vercel.app/',
+  title: 'Stinger Auto - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };

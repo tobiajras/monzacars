@@ -27,7 +27,7 @@ const HeroHome = () => {
                   transition={{ duration: 0.5 }}
                   className='text-[28px] sm:text-4xl md:text-4xl lg:text-5xl xl:text-7xl font-semibold text-color-primary-light'
                 >
-                  Vehículos Seleccionados,
+                  Usados Seleccionados,
                 </motion.h2>
               </div>
               <div className='md:gap-3 text-nowrap lg:mb-1'>
@@ -37,7 +37,7 @@ const HeroHome = () => {
                   transition={{ duration: 0.5, delay: 0.1 }}
                   className='text-[28px] sm:text-4xl md:text-4xl lg:text-5xl xl:text-7xl font-semibold text-color-title-light'
                 >
-                  Usados y 0km
+                  Vehículos 0km
                 </motion.h2>
               </div>
             </div>

@@ -1,18 +1,18 @@
 [
   {
-    "id": "renault-clio-mio-2014",
-    "name": "Renault Clio Mío",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2014,
-    "kilometraje": 114000,
+    "id": "bmw-x4-xdrive-35i-m-package-2015",
+    "name": "BMW X4 Xdrive 35i M Package",
+    "marca": "BMW",
+    "marcaId": "bmw",
+    "ano": 2015,
+    "kilometraje": 69200,
     "precio": {
-      "valor": 9900000,
+      "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "Hatchback",
+    "categoria": "SUV",
     "transmision": "Manual",
-    "motor": "1.2",
+    "motor": "3.0",
     "combustible": "Nafta",
     "puertas": 5,
     "images": [
@@ -22,26 +22,29 @@
       "1-4.webp",
       "1-5.webp",
       "1-6.webp",
-      "1-7.webp"
+      "1-7.webp",
+      "1-8.webp",
+      "1-9.webp",
+      "1-10.webp"
     ],
-    "descripcion": "VENDIDO!!\n\nRenault Clio Mío\nAño 2014\n114.000 Mil Km\n9.900.000 Pesos\n\nHermosa unidad"
+    "descripcion": "✨ Nuevo ingreso ✨\n\nBmw X4 Xdrive 35i M Package\n🗓Año 2015\n🛣Km 69.200\n📁Manuales\n🔑Segunda llave\n\nExcelente unidad...\n💥Recibimos tu usado ..\n📍Nos encontramos en :\nSalvador María del carril 4629\nVilla devoto - Capital federal\n\n• CONTACTO📲11 32449016..\n🕒HORARIOS DE ATENCIÓN:\nLun a Vie 10 a 18.30Hrs\nSábados 10 a 14Hrs\nVisita con previo aviso !"
   },
   {
-    "id": "chevrolet-tiggo-2-0-lexury-2013",
-    "name": "Chevrolet Tiggo 2.0 Lexury",
-    "marca": "Chevrolet",
-    "marcaId": "chevrolet",
-    "ano": 2013,
-    "kilometraje": 210000,
+    "id": "bmw-serie-330i-sedan-sport-line-2017",
+    "name": "BMW Serie 330i Sedan Sport Line",
+    "marca": "BMW",
+    "marcaId": "bmw",
+    "ano": 2017,
+    "kilometraje": 32000,
     "precio": {
-      "valor": 10500000,
+      "valor": 999999,
       "moneda": "ARS"
     },
-    "categoria": "SUV",
-    "transmision": "Manual",
+    "categoria": "Sedán",
+    "transmision": "Automático",
     "motor": "2.0",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 4,
     "images": [
       "2-1.webp",
       "2-2.webp",
@@ -49,26 +52,29 @@
       "2-4.webp",
       "2-5.webp",
       "2-6.webp",
-      "2-7.webp"
+      "2-7.webp",
+      "2-8.webp",
+      "2-9.webp",
+      "2-10.webp"
     ],
-    "descripcion": "VENDIDO!!\n\nChevy Tiggo 2.0 Lexury\nAño 2013\n210.000 Km\n10.500.000$"
+    "descripcion": "✨ Nuevo ingreso ✨\n\nBmw Serie 330i Sedan Sport Line\n🗓Año 2017\n📁Manuales\n⚙️ caja automática\n🛣️ 32.000Kms\n\n💥Recibimos tu usado ..\n📍Nos encontramos en :\nSalvador María del carril 4629\nVilla devoto - Capital federal\n\n• CONTACTO📲1132449016..\n🕒HORARIOS DE ATENCIÓN:\nLun a Vie 10 a 18:00Hrs\nSábados 10 a 13:00Hrs\nVisita con previo aviso"
   },
   {
-    "id": "ford-eco-sport-titanium-2018",
-    "name": "Ford Eco Sport Titanium",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2018,
-    "kilometraje": 105000,
+    "id": "smart-fortwo-coupe-passion-2016",
+    "name": "Smart Fortwo Coupé Passion",
+    "marca": "Smart",
+    "marcaId": "smart",
+    "ano": 2016,
+    "kilometraje": 39117,
     "precio": {
-      "valor": 18000000,
-      "moneda": "USD"
+      "valor": 999999,
+      "moneda": "ARS"
     },
-    "categoria": "SUV",
+    "categoria": "Hatchback",
     "transmision": "Manual",
-    "motor": "1.6",
+    "motor": "1.0",
     "combustible": "Nafta",
-    "puertas": 5,
+    "puertas": 2,
     "images": [
       "3-1.webp",
       "3-2.webp",
@@ -78,64 +84,79 @@
       "3-6.webp",
       "3-7.webp",
       "3-8.webp",
-      "3-9.webp"
+      "3-9.webp",
+      "3-10.webp"
     ],
-    "descripcion": "VENDIDA!!\n\nEco Sport Titanium\nAño 2018\n105 mil km\n18.000 mil U$$\n\nImpecable estado"
+    "descripcion": "✨ Nuevo ingreso ✨\n\nSmart Fortwo coupé passion\n🗓Año 2016\n🛣Km 39.117\n⚙️ caja manual\n🔑Segunda llave\n\nExcelente unidad ...\n💥Recibimos tu usado ..\n📍Nos encontramos en :\nSalvador María del carril 4629\nVilla devoto - Capital federal\n\n• CONTACTO📲1132449016..\n🕒HORARIOS DE ATENCIÓN:\nLun a Vie 10 a 18:30Hrs\nSábados 10 a 14Hrs\nVisita con previo aviso !"
   },
   {
-    "id": "peugeot-208-allure-s-meg-2016",
-    "name": "Peugeot 208 Allure S Meg",
+    "id": "volkswagen-amarok-v6-highline-2020",
+    "name": "Volkswagen Amarok V6 Highline",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2020,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "Pickup",
+    "transmision": "Automático",
+    "motor": "3.0",
+    "combustible": "Diésel",
+    "puertas": 4,
+    "images": [
+      "4-1.webp",
+      "4-2.webp",
+      "4-3.webp",
+      "4-4.webp",
+      "4-5.webp",
+      "4-6.webp"
+    ],
+    "descripcion": "Volkswagen Amarok V6 Highline 2020 original 100%"
+  },
+  {
+    "id": "peugeot-208-allure-pack-t200-2025",
+    "name": "Peugeot 208 Allure Pack T200",
     "marca": "Peugeot",
     "marcaId": "peugeot",
-    "ano": 2016,
-    "kilometraje": 90000,
+    "ano": 2025,
+    "kilometraje": 0,
     "precio": {
-      "valor": 14800000,
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "Hatchback",
+    "transmision": "Automático",
+    "motor": "1.0",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "5-1.webp",
+      "5-2.webp",
+      "5-3.webp",
+      "5-4.webp",
+      "5-5.webp",
+      "5-6.webp"
+    ],
+    "descripcion": "Peugeot 208 allure pack t200\n1.0turbo caja cvt 7 velocidades\n2025 okm"
+  },
+  {
+    "id": "ds-ds3-1-6-vti-120cv-so-chic-mt-2016",
+    "name": "DS DS3 1.6 Vti 120Cv So Chic Mt",
+    "marca": "DS",
+    "marcaId": "ds",
+    "ano": 2016,
+    "kilometraje": 135000,
+    "precio": {
+      "valor": 999999,
       "moneda": "ARS"
     },
     "categoria": "Hatchback",
     "transmision": "Manual",
     "motor": "1.6",
     "combustible": "Nafta",
-    "puertas": 5,
-    "images": ["4-1.webp", "4-2.webp", "4-3.webp", "4-4.webp"],
-    "descripcion": "VENDIDO!!\n\nPeugeot 208 Allure S Meg\nAño 2016\n90.000 mil Km\n$14.800.000\n\nRetira con 7 Millones\nImpecable estado y condiciones"
-  },
-  {
-    "id": "ford-ka-fly-viral-1-0-2011",
-    "name": "Ford Ka Fly Viral 1.0",
-    "marca": "Ford",
-    "marcaId": "ford",
-    "ano": 2011,
-    "kilometraje": 180000,
-    "precio": {
-      "valor": 5000,
-      "moneda": "USD"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.0",
-    "combustible": "Nafta",
     "puertas": 3,
-    "images": ["5-1.webp", "5-2.webp", "5-3.webp"],
-    "descripcion": "VENDIDO!!\n\nFord Ka Fly Viral 1.0\nAño 2011\n180.000 Mil Km\n5.000 U$$\n\nAprovecha la oferta de la semana!!"
-  },
-  {
-    "id": "renault-clio-mio-2013",
-    "name": "Renault Clio Mío",
-    "marca": "Renault",
-    "marcaId": "renault",
-    "ano": 2013,
-    "kilometraje": 76000,
-    "precio": {
-      "valor": 11000000,
-      "moneda": "ARS"
-    },
-    "categoria": "Hatchback",
-    "transmision": "Manual",
-    "motor": "1.2",
-    "combustible": "Nafta",
-    "puertas": 5,
     "images": [
       "6-1.webp",
       "6-2.webp",
@@ -146,8 +167,187 @@
       "6-7.webp",
       "6-8.webp",
       "6-9.webp",
-      "6-10.webp"
+      "6-10.webp",
+      "6-11.webp",
+      "6-12.webp"
     ],
-    "descripcion": "VENDIDO!!\n\nClio Mío\nAño 2013 - Confort - 76.000km\n$11.000.000 - Transferido\n\nEstado increíble!! No te pierdas la oportunidad !!"
+    "descripcion": "✨ Nuevo ingreso ✨\n\nDS DS3 1.6 Vti 120Cv So Chic Mt\n🗓Año 2016\n📁Manuales\n⚙️ Transmisión Manual\n🔑Segunda llave\n🛣️Kms 135.000\n\n💥Recibimos tu usado ..\n📍Nos encontramos en :\nSalvador María del carril 4629\nVilla devoto - Capital federal"
+  },
+  {
+    "id": "audi-q2-tfsi-1-4-2018",
+    "name": "Audi Q2 Tfsi 1.4",
+    "marca": "Audi",
+    "marcaId": "audi",
+    "ano": 2018,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "SUV",
+    "transmision": "Automático",
+    "motor": "1.4",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "7-1.webp",
+      "7-2.webp",
+      "7-3.webp",
+      "7-4.webp",
+      "7-5.webp",
+      "7-6.webp",
+      "7-7.webp"
+    ],
+    "descripcion": "Audi Q2 tfsi 1.4 2018 stronic"
+  },
+  {
+    "id": "volkswagen-tiguan-2-0-premium-tsi-2018",
+    "name": "Volkswagen Tiguan 2.0 Premium Tsi",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2018,
+    "kilometraje": 72000,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "SUV",
+    "transmision": "Automático",
+    "motor": "2.0",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "8-1.webp",
+      "8-2.webp",
+      "8-3.webp",
+      "8-4.webp",
+      "8-5.webp",
+      "8-6.webp",
+      "8-7.webp",
+      "8-8.webp",
+      "8-9.webp",
+      "8-10.webp"
+    ],
+    "descripcion": "✨ Nuevo ingreso ✨\n\nVolkswagen Tiguan 2.0 Premium Tsi\n🗓Año 2018\n📁Manuales\n⚙️ caja automática\n🛣️ 72.000 Kms\n\n💥Recibimos tu usado ..\n📍Nos encontramos en :\nSalvador María del carril 4629\nVilla devoto - Capital federal\n\n• CONTACTO📲1132449016..\n🕒HORARIOS DE ATENCIÓN:\nLun a Vie 10 a 18:00Hrs\nSábados 10 a 13:00Hrs\nVisita con previo aviso"
+  },
+  {
+    "id": "ford-focus-titanium-2-0-at6-2017",
+    "name": "Ford Focus Titanium 2.0 At6",
+    "marca": "Ford",
+    "marcaId": "ford",
+    "ano": 2017,
+    "kilometraje": 64300,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "Hatchback",
+    "transmision": "Automático",
+    "motor": "2.0",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "9-1.webp",
+      "9-2.webp",
+      "9-3.webp",
+      "9-4.webp",
+      "9-5.webp",
+      "9-6.webp",
+      "9-7.webp",
+      "9-8.webp",
+      "9-9.webp",
+      "9-10.webp"
+    ],
+    "descripcion": "✨ Nuevo ingreso ✨\n\nFord Focus Titanium 2.0 At6\n🗓Año 2017\n📁Manuales\n⚙️ caja automática\n🛣️ 64.300 Kms\n\n💥Recibimos tu usado ..\n📍Nos encontramos en :\nSalvador María del carril 4629\nVilla devoto - Capital federal\n\n• CONTACTO📲1132449016..\n🕒HORARIOS DE ATENCIÓN:\nLun a Vie 10 a 18:30Hrs\nSábados 10 a 14Hrs\nVisita con previo aviso"
+  },
+  {
+    "id": "alfa-romeo-giulietta-1-4-distinctive-multiair-170cv-mt6-2013",
+    "name": "Alfa Romeo Giulietta 1.4 Distinctive Multiair 170Cv Mt6",
+    "marca": "Alfa Romeo",
+    "marcaId": "alfa-romeo",
+    "ano": 2013,
+    "kilometraje": 125000,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.4",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "10-1.webp",
+      "10-2.webp",
+      "10-3.webp",
+      "10-4.webp",
+      "10-5.webp",
+      "10-6.webp",
+      "10-7.webp",
+      "10-8.webp",
+      "10-9.webp",
+      "10-10.webp"
+    ],
+    "descripcion": "✨ Nuevo ingreso ✨\n\nAlfa Romeo Giulietta 1.4 Distinctive Multiair 170Cv Mt6\n🗓Año 2013\n📁Manuales\n⚙️ caja Manual\n🛣️ 125.000 Kms\n\n💥Recibimos tu usado ..\n📍Nos encontramos en :\nSalvador María del carril 4629\nVilla devoto - Capital federal\n\n• CONTACTO📲1132449016..\n🕒HORARIOS DE ATENCIÓN:\nLun a Vie 10 a 18:30Hrs\nSábados 10 a 14Hrs\nVisita con previo aviso"
+  },
+  {
+    "id": "honda-fit-1-5-ex-l-132cv-2017",
+    "name": "Honda Fit 1.5 Ex-l 132cv",
+    "marca": "Honda",
+    "marcaId": "honda",
+    "ano": 2017,
+    "kilometraje": 41600,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "Hatchback",
+    "transmision": "Automático",
+    "motor": "1.5",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "11-1.webp",
+      "11-2.webp",
+      "11-3.webp",
+      "11-4.webp",
+      "11-5.webp",
+      "11-6.webp",
+      "11-7.webp",
+      "11-8.webp",
+      "11-9.webp",
+      "11-10.webp"
+    ],
+    "descripcion": "✨ Nuevo ingreso ✨\n\nHonda fit 1.5 Ex-l 132cv\n🗓Año 2017\n📁Manuales\n⚙️ caja Automática\n🔑Segunda llave\n🛣️ 41.600 Kms\n\n💥Recibimos tu usado ..\n📍Nos encontramos en :\nSalvador María del carril 4629\nVilla devoto - Capital federal\n\n• CONTACTO📲1132449016..\n🕒HORARIOS DE ATENCIÓN:\nLun a Vie 10 a 18:30Hrs\nSábados 10 a 14Hrs\nVisita con previo aviso !"
+  },
+  {
+    "id": "volkswagen-fox-1-6-highline-msi-2017",
+    "name": "Volkswagen Fox 1.6 Highline Msi",
+    "marca": "Volkswagen",
+    "marcaId": "volkswagen",
+    "ano": 2017,
+    "kilometraje": 999999,
+    "precio": {
+      "valor": 999999,
+      "moneda": "ARS"
+    },
+    "categoria": "Hatchback",
+    "transmision": "Manual",
+    "motor": "1.6",
+    "combustible": "Nafta",
+    "puertas": 5,
+    "images": [
+      "12-1.webp",
+      "12-2.webp",
+      "12-3.webp",
+      "12-4.webp",
+      "12-5.webp",
+      "12-6.webp",
+      "12-7.webp",
+      "12-8.webp",
+      "12-9.webp",
+      "12-10.webp"
+    ],
+    "descripcion": "✨ Nuevo ingreso ✨\n\nVolkswagen Fox 1.6 Highline Msi 2017\n🗓Año 2017\n📁Manuales\n⚙️ caja manual\n🔑Segunda llave\n\nExcelente estado en general...\n💥Recibimos tu usado ..\n📍Nos encontramos en :\nSalvador María del carril 4629\nVilla devoto - Capital federal\n\n• CONTACTO📲1132449016..\n🕒HORARIOS DE ATENCIÓN:\nLun a Vie 10 a 18:30Hrs\nSábados 10 a 14Hrs\nVisita con previo aviso !"
   }
 ]
