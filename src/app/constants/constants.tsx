@@ -12,7 +12,7 @@ export const company = {
   email: 'monza-cars.srl@hotmail.com.ar',
   instagram: 'monzacarssrl',
   facebook: 'https://www.facebook.com/MonzaCarsSRL/',
-  whatsapp: ['3417227799', '3415413281', '3415719063', '3415817428'],
+  whatsapp: ['3417227799', '3415719063', '3415817428'],
   googlemapsLink: 'https://maps.app.goo.gl/gbb1uftGQdHuevuw8',
   googlemaps:
     'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3352.005568192482!2d-60.70756820364861!3d-32.84510424240187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6516fb339e253%3A0xc583efac6216569c!2sMONZA%20CARS%20S.R.L.!5e0!3m2!1sen!2sar!4v1755569651314!5m2!1sen!2sar',
