@@ -7,51 +7,9 @@ import { company } from '@/app/constants/constants';
 
 const beneficios = [
   {
-    titulo: 'Vehículos seleccionados',
+    titulo: 'Financiación a tu medida',
     descripcion:
-      'Cada auto de nuestro catálogo pasa por una rigurosa selección para garantizar calidad y confiabilidad en tu próxima compra.',
-    icono: (
-      <svg
-        xmlns='http://www.w3.org/2000/svg'
-        className='w-full h-full'
-        fill='none'
-        viewBox='0 0 24 24'
-        stroke='currentColor'
-      >
-        <path
-          strokeLinecap='round'
-          strokeLinejoin='round'
-          strokeWidth={1.5}
-          d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
-        />
-      </svg>
-    ),
-  },
-  {
-    titulo: 'Asesoramiento personalizado',
-    descripcion:
-      'Nuestro equipo experto te guía en cada paso, ayudándote a encontrar el vehículo perfecto que se adapte a tus necesidades.',
-    icono: (
-      <svg
-        xmlns='http://www.w3.org/2000/svg'
-        className='w-full h-full'
-        fill='none'
-        viewBox='0 0 24 24'
-        stroke='currentColor'
-      >
-        <path
-          strokeLinecap='round'
-          strokeLinejoin='round'
-          strokeWidth={1.5}
-          d='M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z'
-        />
-      </svg>
-    ),
-  },
-  {
-    titulo: 'Garantía y confianza',
-    descripcion:
-      'Trabajamos con transparencia total, ofreciendo garantías y respaldo completo para que compres con total tranquilidad.',
+      'Ofrecemos planes de financiación flexibles y personalizados para que puedas acceder a tu próximo auto de manera simple y segura.',
     icono: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -65,6 +23,49 @@ const beneficios = [
           strokeLinejoin='round'
           strokeWidth={1.5}
           d='M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z'
+        />
+      </svg>
+    ),
+  },
+
+  {
+    titulo: 'Vehículos certificados',
+    descripcion:
+      'Todos nuestros autos pasan por rigurosos controles de calidad y certificación para garantizar su estado óptimo y funcionamiento.',
+    icono: (
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        className='w-full h-full'
+        fill='none'
+        viewBox='0 0 24 24'
+        stroke='currentColor'
+      >
+        <path
+          strokeLinecap='round'
+          strokeLinejoin='round'
+          strokeWidth={1.5}
+          d='M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z'
+        />
+      </svg>
+    ),
+  },
+  {
+    titulo: 'Recibimos tu usado',
+    descripcion:
+      'Recibimos tu vehículo usado como parte de pago, con tasación profesional y condiciones transparentes para facilitar tu cambio.',
+    icono: (
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        className='w-full h-full'
+        fill='none'
+        viewBox='0 0 24 24'
+        stroke='currentColor'
+      >
+        <path
+          strokeLinecap='round'
+          strokeLinejoin='round'
+          strokeWidth={1.5}
+          d='M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4'
         />
       </svg>
     ),
@@ -84,18 +85,18 @@ const Proceso = () => {
             viewport={{ once: true, margin: '0px 0px -100px 0px' }}
             className='text-2xl md:text-3xl lg:text-4xl font-extrabold text-color-title mb-2'
           >
-            Por qué elegir <span className='text-color-primary'>nuestros</span>{' '}
-            vehículos
+            La mejor <span className='text-color-primary'>experiencia</span> en
+            tu compra
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true, margin: '0px 0px -100px 0px' }}
-            className='text-color-text max-w-xl mx-auto md:text-lg font-medium'
+            className='text-color-text max-w-2xl mx-auto md:text-lg font-medium'
           >
-            En {company.name} nos especializamos en ofrecer vehículos de calidad
-            con el respaldo y confianza que mereces.
+            En {company.name} te acompañamos en cada paso para que tu
+            experiencia sea simple, segura y transparente.
           </motion.p>
         </div>
         {/* Layout principal */}
@@ -108,13 +109,23 @@ const Proceso = () => {
             viewport={{ once: true, margin: '0px 0px -100px 0px' }}
             className='flex justify-center'
           >
-            <div className='relative max-w-md lg:max-w-full'>
+            <div className='relative max-w-md'>
+              {/* Imagen para mobile */}
               <Image
-                src='/assets/proceso/proceso-1.webp'
-                alt='Auto destacado'
-                width={608}
-                height={480}
-                className='object-cover aspect-[4/3] w-[300px] sm:w-[350px] md:w-[400px] lg:w-[460px] xl:w-[500px] rounded-lg md:rounded-xl'
+                src='/assets/proceso/proceso-mobile.webp'
+                alt='Auto destacado mobile'
+                width={300}
+                height={170}
+                className='object-contain w-[300px] h-[170px] md:w-[400px] md:h-[250px] block lg:hidden'
+                priority
+              />
+              {/* Imagen para escritorio */}
+              <Image
+                src='/assets/proceso/proceso.webp'
+                alt='Auto destacado desktop'
+                width={300}
+                height={500}
+                className='object-contain w-[300px] h-[500px] hidden lg:block'
                 priority
               />
             </div>
@@ -130,16 +141,16 @@ const Proceso = () => {
             {beneficios.map((b, i) => (
               <div
                 key={i}
-                className='flex justify-center lg:justify-start items-start gap-3 md:gap-4 bg-white/10'
+                className='flex justify-center items-center gap-3 md:gap-4 bg-white/10'
               >
-                <div className='flex items-center justify-center w-12 h-12 lg:w-14 lg:h-14 p-1.5 md:p-2 lg:p-3 rounded-full bg-color-primary text-color-title-light'>
+                <div className='flex items-center justify-center w-12 h-12 lg:w-14 lg:h-14 p-1.5 md:p-2 lg:p-3 rounded-full bg-color-primary/20 text-color-primary'>
                   {b.icono}
                 </div>
                 <div>
-                  <h4 className='text-lg font-semibold text-color-title mb-1'>
+                  <h4 className='text-lg lg:text-xl font-semibold text-color-title mb-1'>
                     {b.titulo}
                   </h4>
-                  <p className='text-color-text font-medium max-w-xs md:max-w-sm lg:max-w-md'>
+                  <p className='text-color-text font-medium md:text-lg max-w-xs md:max-w-sm lg:max-w-lg'>
                     {b.descripcion}
                   </p>
                 </div>

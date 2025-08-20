@@ -47,8 +47,8 @@ const HeroHome = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
               className='text-lg lg:text-xl xl:text-2xl text-center text-color-text-light mx-4 max-w-md sm:max-w-md lg:max-w-lg xl:max-w-2xl'
             >
-              Concesionaria multimarca. Vehículos seleccionados, precios
-              competitivos y atención profesional. ¡Contactanos!
+              Vehículos seleccionados, financiación flexible y asesoramiento
+              personalizado. ¡Contactanos!
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 30 }}

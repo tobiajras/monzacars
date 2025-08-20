@@ -9,38 +9,51 @@ import WhatsappFillIcon from '@/components/icons/WhatsappFillIcon';
 import { motion } from 'framer-motion';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Image from 'next/image';
 
 const ContactoPage = () => {
   return (
     <>
       <Header />
-      <div className='py-8 md:py-14 lg:py-16'>
+      <div className=''>
         {/* Hero Section */}
-        <section className='flex flex-col items-center w-full'>
-          <div className='text-center mb-3 sm:mb-4 md:mb-5 lg:mb-10'>
-            <motion.h2
+        <section className='relative h-48 md:h-60 lg:h-72 flex items-center justify-center overflow-hidden'>
+          {/* Imagen de fondo con overlay */}
+          <div className='absolute inset-0 z-0'>
+            <Image
+              src='/assets/contacto/contacto-banner.webp'
+              alt={`Equipo de ${company.name}`}
+              fill
+              className='object-cover'
+              priority
+            />
+            <div className='absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-black/80'></div>
+          </div>
+
+          {/* Contenido centrado */}
+          <div className='relative z-10 text-center px-4 max-w-4xl mx-auto'>
+            <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              className='text-2xl md:text-3xl lg:text-4xl font-extrabold text-color-primary mb-2'
+              transition={{ duration: 0.6 }}
+              className='text-2xl md:text-3xl lg:text-4xl font-semibold text-color-primary-light mb-3 md:mb-4 lg:mb-6'
             >
-              Contactanos
-            </motion.h2>
+              Contacto
+            </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              className='text-gray-600 max-w-sm sm:max-w-lg lg:max-w-2xl mx-auto md:text-lg font-medium px-4'
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className='text-xl md:text-2xl text-white/90 font-medium leading-relaxed'
             >
-              En {company.name} nos especializamos en la venta de autos usados,
-              ofreciendo calidad y confianza en cada transacción.
+              Contactanos para cualquier consulta
             </motion.p>
           </div>
         </section>
 
         {/* Información de contacto principal */}
         <section>
-          <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+          <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start'>
               {/* Columna izquierda - Información de contacto */}
               <div className='space-y-6'>
@@ -57,7 +70,7 @@ const ContactoPage = () => {
                     viewport={{ once: true }}
                     className='group flex items-center p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-colors duration-300 border border-gray-200 hover:border-color-primary/30 hover:scale-[1.02]'
                   >
-                    <div className='flex-shrink-0 w-14 h-14 bg-green-500 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg'>
+                    <div className='flex-shrink-0 w-14 h-14 bg-color-primary rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg'>
                       <WhatsappFillIcon className='w-7 h-7 text-white' />
                     </div>
                     <div className='ml-6 flex-1'>
@@ -84,7 +97,7 @@ const ContactoPage = () => {
                     viewport={{ once: true }}
                     className='group flex items-center p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-colors duration-300 border border-gray-200 hover:border-color-primary/30 hover:scale-[1.02]'
                   >
-                    <div className='flex-shrink-0 w-14 h-14 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg'>
+                    <div className='flex-shrink-0 w-14 h-14 bg-color-primary rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg'>
                       <InstagramIcon className='w-7 h-7 text-white' />
                     </div>
                     <div className='ml-6 flex-1'>

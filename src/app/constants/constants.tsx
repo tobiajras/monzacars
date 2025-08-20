@@ -1,24 +1,24 @@
 export const company = {
-  dark: false,
-  darkmode: true,
+  dark: true,
+  darkmode: false,
   shortAdress: true,
   favicon: false,
   price: false,
   objectCover: '50%',
-  id: 'stingerauto',
-  name: 'Stinger Auto',
-  adress: 'Salvador María del carril 4629',
-  city: 'Villa Devoto',
-  email: 'stingerautoventas@gmail.com',
-  instagram: 'stinger.auto',
-  facebook: 'https://www.facebook.com/stingerauto.com.ar/',
-  whatsapp: ['1126482286', '1126540073'],
-  googlemapsLink: 'https://maps.app.goo.gl/4WvDEJfjZgXaPFpQ9',
+  id: 'monzacars',
+  name: 'Monza Cars',
+  adress: 'Av. San Martín 2493',
+  city: 'Rosario - Santa Fe',
+  email: 'monza-cars.srl@hotmail.com.ar',
+  instagram: 'monzacarssrl',
+  facebook: 'https://www.facebook.com/MonzaCarsSRL/',
+  whatsapp: ['3417227799', '3415413281', '3415719063', '3415817428'],
+  googlemapsLink: 'https://maps.app.goo.gl/gbb1uftGQdHuevuw8',
   googlemaps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0103196148284!2d-58.52247152373004!3d-34.60390055750863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7b313806371%3A0x638784d8ccce696c!2sStinger%20Auto%20Devoto!5e0!3m2!1sen!2sar!4v1754696349030!5m2!1sen!2sar',
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3352.005568192482!2d-60.70756820364861!3d-32.84510424240187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6516fb339e253%3A0xc583efac6216569c!2sMONZA%20CARS%20S.R.L.!5e0!3m2!1sen!2sar!4v1755569651314!5m2!1sen!2sar',
   openDays: [
-    'Lunes a Viernes 10:00 a 18:00hs',
-    'Sábados 10:00 a 13:00hs',
+    'Lunes a Viernes 9:30 a 13:30 y 15:30 a 19:30hs',
+    'Sábados 9 a 13:30hs',
     // { day: 'Domingo', hours: ['09:00 a 13:00hs'] },
   ],
   footer:
@@ -29,8 +29,8 @@ export const API_BASE_URL = 'https://dealership.agenciagrvity.com';
 export const TENANT = 'accotto-automotores';
 
 export const metadataCompany = {
-  metadataBase: 'https://stingerauto.vercel.app/',
-  title: 'Stinger Auto - Compra y Venta de Autos',
+  metadataBase: 'https://monzacars.vercel.app/',
+  title: 'Monza Cars - Compra y Venta de Autos',
   description:
     'Compra y Venta de Autos: Vehículos seleccionados, atención personalizada.',
 };

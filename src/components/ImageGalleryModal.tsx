@@ -178,7 +178,7 @@ const ImageGalleryModal = ({
 
         {/* Contenedor del carrusel */}
         <div
-          className='overflow-hidden h-full'
+          className='overflow-hidden h-full cursor-grab active:cursor-grabbing'
           ref={emblaRef}
           onMouseDown={handleMouseDown}
           onMouseMove={handleMouseMove}
@@ -188,7 +188,7 @@ const ImageGalleryModal = ({
             {images.map((image, index) => (
               <div
                 key={index}
-                className='relative min-w-full h-full'
+                className='relative min-w-full h-full cursor-grab active:cursor-grabbing'
                 onMouseDown={handleMouseDown}
                 onMouseMove={handleMouseMove}
                 onMouseUp={handleMouseUp}
@@ -198,7 +198,7 @@ const ImageGalleryModal = ({
                   src={image}
                   alt={`Imagen ${index + 1}`}
                   fill
-                  className='object-contain'
+                  className='object-contain cursor-grab active:cursor-grabbing'
                   style={{
                     objectPosition: 'center',
                   }}
